@@ -67,7 +67,7 @@ get_header();
 
                         <article>
 
-                            <h3><a href="<?php esc_url( the_permalink() ); ?>"><?php the_title(); ?></a></h3>
+                            <h3><?php the_title(); ?></h3>
 							<?php
 							if ( function_exists( 'get_field' ) ) {
 
